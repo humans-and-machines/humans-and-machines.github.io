@@ -1,0 +1,73 @@
+body {
+  font-family: 'oboto', sans-serif;
+  font-weight: 390;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 3px solid #E77500;
+  padding: 1rem 0;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+  font-size: 28px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#introduction {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+h2 {
+  border-bottom: 2px solid #E77500;
+  padding: 0 0 0.5rem;
+  margin-top: 5px;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.person {
+  text-align: center;
+}
+
+.person img {
+  border-radius: 10%;
+  /*
+   * Images get choppy if you resize them.
+   * object-fit: cover;
+   * width: 180px;
+   * height: 180px;
+   */
+}
+
+p {
+  margin-top: 5px;
+}
+
+a {
+  color: #E77500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
