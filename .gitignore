@@ -1,0 +1,16 @@
+old/_site
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+.idea
+
+curl \
+  -H "Accept: application/vnd.github.v3+json" \
+  https://api.github.com/repos/manoelhortaribeiro/manoelhortaribeiro.github.io/pages/builds/latest

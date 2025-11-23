@@ -1,0 +1,11 @@
+---
+- links:
+    - { "date": "2025-11-10", "text": "🏆 Manoel was commended by my teaching at Princeton!", "link": "https://engineering.princeton.edu/news/2025/11/10/faculty-commended-outstanding-teaching-8" }
+    - { "date": "2025-10-18", "text": "🎉 The very first cohort of MSc, PhD students, and MSc students joined the lab!"}
+    - { "date": "2025-10-18", "text": "🏆 Our paper on AI reviews got a best paper award (honorable mention) at CSCW", "link": "https://programs.sigchi.org/cscw/2025/program/content/210990"}
+    - { "date": "2024-06-26", "text": "🏆 Two of our papers received best paper (honorable mention) awards at ICWSM!", "link": "https://x.com/manoelribeiro/status/1938234177809252368" }
+    - { "date": "2024-05-19", "text": "📜 Paper out at Nature Human Behavior: \"On the conversational persuasiveness of GPT-4\"", "link": "https://www.nature.com/articles/s41562-025-02194-6" }
+    - { "date": "2025-02-13", "text": "📜 Paper accepted at CSCW 2025: \"The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates\"", "links": ["https://arxiv.org/abs/2405.02150"] }
+    - { "date": "2025-05-01", "text": "🐶 Cannoli joined the lab",  "photo": "/images/photos/cannoli.jpg" }
+    - { "date": "2025-01-31", "text": "📜 Paper accepted at  WebSci 2025: \"The Effects of Enterprise Social Media on Communication Networks.\"", "links": ["https://arxiv.org/abs/2502.01787"] }
+    - {"date": "2025-01-16", "text": "🎒 Manoel moved to the US to start as an Assistant Professor at Princeton!", "link": "https://x.com/manoelribeiro/status/1793288211814379776"}

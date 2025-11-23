@@ -1,0 +1,244 @@
+---
+layout: default
+title: Humans and Machines Lab
+permalink: /
+---
+
+<div class="col-lg-6  col-md-12 " style="margin-bottom: 30px; padding:4px">
+
+    <div class="frame">
+        <img id="labPhoto_fall_2025" src="/images/lab_pictures/fall_2025.jpg"
+             alt="Lab photo"/>
+        <img id="labPhoto_spring_2025"
+             src="/images/lab_pictures/spring_2025.jpg" alt="Lab photo"
+             style="display: none"/>
+    </div>
+
+    <span style="text-align: center">
+  <p id="semester-links">
+    <a class="semester-link active"
+       dataphoto="/images/lab_pictures/fall_2025.jpg" data-caption="Fall 2025">Fall 2025</a>
+    <span aria-hidden="true"> · </span>
+
+    <a class="semester-link" dataphoto="/images/lab_pictures/spring_2025.jpg"
+       data-caption="Spring 2025">Spring 2025</a>
+  </p>
+</span>
+
+    <p>
+        The Humans and Machines Lab is a research group within the
+        <a href="https://www.cs.princeton.edu/">Princeton CS department</a>
+        led by <a href="https://manoelhortaribeiro.github.io/">Manoel Horta Ribeiro</a>.
+        We are affiliated with the <a href="https://citp.princeton.edu/">Center for Information Technology Policy</a>
+        and with <a href="https://hci.princeton.edu/"> Princeton HCI</a>.
+        We do research at the intersection of Computational Social
+        Science, Human-Computer Interaction, and Artificial
+        Intelligence.
+    </p>
+
+    <p>
+        <b>Our research seeks to understand, design, and improve
+        sociotechnical systems in the age of generative AI.</b>
+    </p>
+
+
+</div>
+
+
+<div class="col-lg-6 col-md-12" style="padding-bottom: 20px;">
+    <div style="margin: 10px; padding: 10px; border: #C7C8C9 1px solid;">
+        <span style="text-align: center"><h3><b>Bulletin Board</b></h3></span>
+        <div class="news-pagination">
+            <button id="news-prev" type="button" class="news-btn" disabled>Previous</button>
+            <button id="news-next" type="button" class="news-btn">Next</button>
+        </div>
+
+        <hr>
+
+        <ul class="news-list">
+            {% for tmp in site.data.news %}
+            {% for entry in tmp.links %}
+            <li class="news-item">
+                <span class="datev">{{ entry.date }}</span>
+                <span class="textv">
+            {{ entry.text }}
+
+            {% if entry.link %}
+              <a href="{{ entry.link }}">(link)</a>
+            {% endif %}
+
+            {% if entry.links %}
+              {% for l in entry.links %}
+                <a href="{{ l }}">(link)</a>
+              {% endfor %}
+            {% endif %}
+
+            {% if entry.photo %}
+              <a href="{{ entry.photo }}">(photo)</a>
+            {% endif %}
+          </span>
+            </li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+
+
+    </div>
+
+
+    <script>
+        (function () {
+            const links = document.querySelectorAll('.semester-link');
+            const photos = document.querySelectorAll('.frame img');
+
+            console.log(links)
+            console.log(photos)
+
+            // hide all but the active photo at startup
+            function showActiveFromMarkup() {
+                const active = document.querySelector('.semester-link.active');
+                if (active) showPhoto(active);
+                else if (links[0]) showPhoto(links[0]);
+            }
+
+            function showPhoto(link) {
+                const targetSrc = link.getAttribute('dataphoto');
+                photos.forEach(img => {
+                    img.style.display = (img.getAttribute('src') === targetSrc) ? 'inline-block' : 'none';
+                });
+
+                links.forEach(l => {
+                    l.classList.remove('active');
+                    l.style.fontWeight = '400';
+                });
+                link.classList.add('active');
+                link.style.fontWeight = '600';
+            }
+
+            links.forEach(link => {
+                link.style.cursor = 'pointer';
+                link.addEventListener('click', e => {
+                    e.preventDefault();
+                    showPhoto(link);
+                });
+            });
+
+            // run on page load
+            showActiveFromMarkup();
+
+            // --- Bulletin Board pagination ---
+            const newsItems = document.querySelectorAll('.news-list .news-item');
+            const prevBtn = document.getElementById('news-prev');
+            const nextBtn = document.getElementById('news-next');
+            const pageSize = 6;
+            let currentPage = 0;
+
+            function renderNewsPage() {
+                const start = currentPage * pageSize;
+                const end = start + pageSize;
+
+                newsItems.forEach((item, idx) => {
+                    item.style.display = (idx >= start && idx < end) ? '' : 'none';
+                });
+
+                if (prevBtn) {
+                    prevBtn.disabled = currentPage === 0;
+                }
+                if (nextBtn) {
+                    nextBtn.disabled = end >= newsItems.length;
+                }
+            }
+
+            if (newsItems.length && prevBtn && nextBtn) {
+                prevBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if (currentPage > 0) {
+                        currentPage -= 1;
+                        renderNewsPage();
+                    }
+                });
+
+                nextBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if ((currentPage + 1) * pageSize < newsItems.length) {
+                        currentPage += 1;
+                        renderNewsPage();
+                    }
+                });
+
+                // initialize first page
+                renderNewsPage();
+            }
+        })();
+    </script>
+
+    <!--    <div class="col-lg-8 col-md-12 col-sm-12  textreg">-->
+    <!--        <p><b>Current Members</b></p>-->
+    <!--        <div class="members">-->
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/manoel.jpg"-->
+    <!--                     alt="Manoel Horta Ribeiro"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Manoel Horta Ribeiro</p>-->
+    <!--                    <p class="role">Principal Investigator</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/cannoli.jpg" alt="Cannoli"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Cannoli</p>-->
+    <!--                    <p class="role">Chief Fun Officer</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/manoel.jpg"-->
+    <!--                     alt="Manoel Horta Ribeiro"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Marianne Aubin Le Quéré</p>-->
+    <!--                    <p class="role">Principal Investigator</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/manoel.jpg"-->
+    <!--                     alt="Manoel Horta Ribeiro"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Manoel Horta Ribeiro</p>-->
+    <!--                    <p class="role">Principal Investigator</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/manoel.jpg"-->
+    <!--                     alt="Manoel Horta Ribeiro"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Manoel Horta Ribeiro</p>-->
+    <!--                    <p class="role">Principal Investigator</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+
+    <!--            <a class="member-card" href="https://manoelhortaribeiro.github.io/"-->
+    <!--               target="_blank">-->
+    <!--                <img src="/images/lab_members/manoel.jpg"-->
+    <!--                     alt="Manoel Horta Ribeiro"/>-->
+    <!--                <div class="info">-->
+    <!--                    <p class="name">Manoel Horta Ribeiro</p>-->
+    <!--                    <p class="role">Principal Investigator</p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+    <!--        </div>-->
+
+    <!--    </div>-->
+
+</div>
+
+    <hr/>
+
+

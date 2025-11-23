@@ -1,0 +1,516 @@
+---
+---
+
+//
+// IMPORTS
+//
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #C7C8C9;
+$lightGray: #C7C8C9;
+$white: #fff;
+
+// Font stacks
+$helveticaNeue: "Helvetica Neue", sans-serif;
+$palatino: "Palatino", sans-serif;
+$lora: "Lora", serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+// HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Apply a natural box layout model to all elements
+// from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.top-menu a {
+  display: inline-flex;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+div {
+
+}
+
+
+#bodf {
+  opacity: 100%;
+  font: 16px $helveticaNeue;
+  //background-color: #FEF9F4;
+  background-color: #fefefe;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $palatino;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+.etop {
+  border-bottom: $lightGray 1px solid;
+  border-top: $lightGray 0 none;
+}
+
+.ebot {
+  border-bottom: $lightGray 0px solid;
+  border-top: $lightGray 1 none;
+}
+
+.textregv {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+
+  th, td {
+    padding: 8px;
+    font-size: 15px;
+    //border-bottom: $lightGray 1px solid;
+    //    border-top: $lightGray 1px solid;
+  }
+
+  .linebreak {
+    border-bottom: 1px solid $lightGray
+  }
+}
+
+.textreg {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+
+
+  th, td {
+    padding: 8px;
+    white-space: nowrap;
+    font-size: 15px;
+    border-bottom: $lightGray 1px solid;
+    border-top: $lightGray 1px solid;
+  }
+
+  td:first-child {
+    min-width: 50px;
+  }
+
+  td:last-child {
+    word-break: break-all;
+  }
+
+
+
+  p {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+  h1, h2, h3 {
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+}
+
+
+td {
+  font-size: 13px;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $black;
+  }
+
+}
+
+a.active {
+  color: $black;
+  text-decoration: none;
+  cursor: default;
+  pointer-events: none;
+
+}
+
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav {
+  font-size: 16px;
+  font-family: $palatino;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.news-list {
+  list-style: none; /* remove default bullets */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+.news-item {
+  display: block;
+  //flex-wrap: wrap;
+  align-items: baseline;
+  border-bottom: 1px solid #eee;
+  padding: 0.4rem 0 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+
+.datev {
+  flex: 0 0 85px; /* fixed width for date */
+  color: #555;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+
+.news-item a {
+  color: #0066cc;
+  text-decoration: none;
+  //margin-left: 0.2rem;
+}
+
+
+.boldblack {
+  height: 3px;
+  color: #999;
+  background-color: #999;
+  opacity: 1;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Card link */
+.member-card {
+  display: inline-block;
+  text-align: center;
+  //gap: 0.1rem;
+  max-width: 250px;
+  text-decoration: none;
+  color: inherit;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  padding: 0.5rem;
+  border: 0.3px solid #e4e4e4;
+  border-radius: 5%;
+
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  background: #e4e4e4;
+}
+
+/* Photo */
+.member-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  //border: 2px solid #000;
+  flex-shrink: 0;
+}
+
+/* Text container */
+.member-card .info {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.2;
+}
+
+/* Name and role */
+.member-card .name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.member-card .role {
+  font-size: 0.8rem;
+  color: #555;
+  margin: 0.2rem 0 0;
+}
+
+.member-card .email {
+  font-size: 0.6rem;
+  color: #444;
+  margin: 0.2rem 0 0;
+}
+
+/* Optional: add subtle divider between cards */
+.member-card:not(:last-child)::after {
+  content: "";
+}
+
+/* Make text smaller on narrow screens */
+@media (max-width: 480px) {
+  .member-card img {
+    width: 60px;
+    height: 60px;
+  }
+  .member-card .name {
+    font-size: 0.85rem;
+  }
+  .member-card .role {
+    font-size: 0.75rem;
+  }
+}
+
+.boldorange {
+  height: 4px;
+  background-color: #f58025;
+  opacity: 1;
+  z-index: -99;
+  margin-top: -15px;
+  border-top: solid 3px #000;
+
+}
+
+.frame {
+  //height: 100%;      /* equals max image height */
+  //width: 100%;
+
+  white-space: nowrap;
+  text-align: center;
+
+  img {
+    vertical-align: middle;
+    max-height: 400px;
+    border: #999 1px solid;
+    //box-shadow: 10px 10px 0px #F58025;
+  }
+
+}
+
+.news-pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.news-btn {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  background: #f8f9fa;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.news-btn:hover:not(:disabled) {
+  background: #e9ecef;
+}
+
+.news-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+
+.space-mono-bold {
+  font-family: "Space Mono", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+
+

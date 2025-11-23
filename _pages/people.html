@@ -1,0 +1,118 @@
+---
+layout: default
+title: Humans and Machines Lab
+permalink: /people/
+---
+
+
+<h3>Current Members</h3>
+
+<hr/>
+{% assign original_list = site.members %}
+{% assign shuffled_list = original_list | sample: original_list.size %}
+
+
+<div class="members">
+
+  {% for person in shuffled_list %}
+
+      <a class="member-card" href="{{person.link}}" target="_blank">
+    <img src="/images/lab_members/{{person.photo}}" alt="{{person.name}}" />
+    <div class="info">
+      <p class="name">{{person.name}}</p>
+      <p class="role">{{person.title}}</p>
+      <p class="email">{{person.email}}</p>
+      <p class="email">{{person.comment}}</p>
+    </div>
+  </a>
+
+{% endfor %}
+
+</div>
+
+
+
+<h3>Past Visitors</h3>
+<hr/>
+{% assign original_list = site.past_visitors %}
+{% assign shuffled_list = original_list | sample: original_list.size %}
+
+
+<div class="members">
+
+  {% for person in shuffled_list %}
+
+      <a class="member-card" href="{{person.link}}" target="_blank">
+    <img src="/images/lab_members/{{person.photo}}" alt="{{person.name}}" />
+    <div class="info">
+      <p class="name">{{person.name}}</p>
+      <p class="role">{{person.title}}</p>
+      <p class="email">{{person.email}}</p>
+      <p class="email">{{person.comment}}</p>
+    </div>
+  </a>
+
+{% endfor %}
+
+  </div>
+
+
+<!--<div class="members">-->
+
+<!--      <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/manoel.jpg" alt="Manoel Horta Ribeiro" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Manoel Horta Ribeiro</p>-->
+<!--      <p class="role">Principal Investigator</p>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/cannoli.jpg" alt="Cannoli" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Cannoli</p>-->
+<!--      <p class="role">Chief Fun Officer</p>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/manoel.jpg" alt="Manoel Horta Ribeiro" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Marianne Aubin Le Quéré</p>-->
+<!--      <p class="role">Principal Investigator</p>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/manoel.jpg" alt="Manoel Horta Ribeiro" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Manoel Horta Ribeiro</p>-->
+<!--      <p class="role">Principal Investigator</p>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/manoel.jpg" alt="Manoel Horta Ribeiro" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Manoel Horta Ribeiro</p>-->
+<!--      <p class="role">Principal Investigator</p>-->
+<!--    </div>-->
+<!--  </a>-->
+
+<!--  <a class="member-card" href="https://manoelhortaribeiro.github.io/" target="_blank">-->
+<!--    <img src="/images/lab_members/manoel.jpg" alt="Manoel Horta Ribeiro" />-->
+<!--    <div class="info">-->
+<!--      <p class="name">Manoel Horta Ribeiro</p>-->
+<!--      <p class="role">Principal Investigator</p>-->
+<!--    </div>-->
+<!--  </a>-->
+<!--</div>-->
+
+<!--<h3>Alumni</h3>-->
+
+
+
+
+
+
+<hr />
