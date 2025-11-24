@@ -3,11 +3,26 @@
 TODO
 
 ## Update lab members
-TODO
+
+To add any media coverage, create a new `.md` file on `members/_media`. 
+
+Please name the file `{name}.md`, e.g., `manoel.md`. This is an example file:
+
+```
+---
+name: 'Hayoung Jung'
+title: 'PhD Student'
+email: 'hayoung@cs.princeton.edu'
+link: 'https://hayoungjung.me/'
+comment: 'Co-advised with Aleksandra Korolova'
+photo: 'hayoung.jpg'
+---
+```
 
 ## Update publications
 
-To add any publications coverage, create a new `.md` file on `my_collections/_publications`. 
+To add any publications coverage, create a new `.md` file on 
+`my_collections/_publications`. 
 
 ## Update media
 
