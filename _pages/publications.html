@@ -27,14 +27,17 @@ permalink: /publications.html
 
 <p>
 {% for author in pub.authors %}
-{% if author == "Manoel Horta Ribeiro" %}
-<b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}
-{% else %}
-{% if author == "Manoel Horta Ribeiro*" %}
+{% assign is_member = false %}
+{% assign author_clean = author | remove: "*" %}
+{% for member in site.members %}
+{% if member.name == author_clean %}
+{% assign is_member = true %}
+{% endif %}
+{% endfor %}
+{% if is_member %}
 <b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}
 {% else %}
 <span style="display: inline-block">{{ author }}</span>{% if forloop.last != true %},{% endif %}
-{% endif %}
 {% endif %}
 {% endfor %}
 </p>
