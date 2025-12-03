@@ -3,7 +3,7 @@ title: "A inteligência artificial consegue ser mais convincente que um humano n
 
 year: 2025
 
-venue: "Público"
+venue: "🇵🇹Público"
 
 link: "https://www.publico.pt/2025/05/20/p3/noticia/inteligencia-artificial-consegue-convincente-humano-discussao-2133667"
 
