@@ -1,11 +1,11 @@
 ---
-title: "C’è un persuasore universale: è l’IA"
+title: "L'intelligenza artificiale è più persuasiva degli umani. Se usata male, i rischi sono enormi"
 
 year: 2025
 
-venue: "🇮🇹La Stampa"
+venue: "🇮🇹Corriere della Sera"
 
-link: "https://www.lastampa.it/tuttoscienze/2025/10/15/news/c_e_un_persuasore_universale_e_l_ia-15351207/"
+link: "https://www.corriere.it/tecnologia/25_maggio_22/l-intelligenza-artificiale-e-piu-persuasiva-degli-umani-se-usata-male-i-rischi-sono-enormi-a70edeff-c991-4a28-aa23-a6b97b49cxlk.shtml"
 
 related_paper: 'On the conversational persuasiveness of GPT-4'
 

@@ -1,11 +1,11 @@
 ---
-title: "L’intelligenza artificiale può essere più persuasiva degli esseri umani nei dibattiti: lo dice la scienza"
+title: "C’è un persuasore universale: è l’IA"
 
 year: 2025
 
-venue: "🇮🇹Vanity Fair"
+venue: "🇮🇹La Stampa"
 
-link: "https://www.vanityfair.it/article/lintelligenza-artificiale-puo-essere-piu-persuasiva-degli-esseri-umani-nei-dibattiti-scienza"
+link: "https://www.lastampa.it/tuttoscienze/2025/10/15/news/c_e_un_persuasore_universale_e_l_ia-15351207/"
 
 related_paper: 'On the conversational persuasiveness of GPT-4'
 
