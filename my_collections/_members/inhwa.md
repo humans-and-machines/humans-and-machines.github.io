@@ -1,7 +1,7 @@
 ---
 name: 'Inhwa Song'
 title: 'PhD Student'
-email: 'inhwa@princeton.edu'
+email: 'inhwa.song@princeton.edu'
 link: 'https://inhwasong.com/'
 photo: 'inhwa.jpg'
 ---
