@@ -33,11 +33,32 @@ such pages:
 
 - `main.html` 
 - `people.html`
-- `joinus.md`
 - `press.html`
 - `publications.html`
+- `joinus.md`
 
-## Update lab members
+Below, we describe how to handle each such pages
+
+## `main.html` — Add events
+
+You can add new noteworthy events by adding a row to `_data/news.yml`. E.g.,
+
+```yaml
+    - {
+        "date": "2025-11-10",
+        "text": "🏆 Manoel was commended for his teaching at Princeton!",
+        "link": "https://engineering.princeton.edu/news/2025/11/10/faculty-commended-outstanding-teaching-8",
+      }
+```
+
+What are noteworthy events? Any of the following:
+
+- Awards / Grants
+- Papers accepted at conferences
+- Noteworthy lab events (e.g., someone new joined, got a job, got a dog).
+
+
+## `people.html` — Update lab members
 
 To add new members, create a new `.md` file on `my_collections/_members`. 
 
@@ -54,7 +75,7 @@ photo: 'hayoung.jpg'
 ---
 ```
 
-## Update publications
+## Update publications — `publications.html`
 
 To add any publications, create a new `.md` file on 
 `my_collections/_publications`. 
@@ -65,35 +86,36 @@ example file:
 
 ```md
 ---
-title: 'YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube'
+title: 'The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates'
+
 authors:
-    - Manoel Horta Ribeiro
-    - Robert West
 
-year: 2021
+  - Giuseppe Russo
+  - Manoel Horta Ribeiro
+  - Tim Reuben Davidson
+  - Veniamin Veselovsky
+  - Robert West
+  
+year: 2025
 
-conf: 'ICWSM'
+conf: 'CSCW'
+
+awards: ['🏆 Best Paper Honorable Mention Award']
 
 links:
-  - {"name": "📜 Paper", "content": "https://ojs.aaai.org/index.php/ICWSM/article/view/18125/17928"}
-  - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2012.10378"}
-  - {"name": "🔗️ Code", "content": "https://github.com/epfl-dlab/YouNiverse/"}
-  - {"name":"🗄️ Data", "content": "https://zenodo.org/record/4650046"}
-  - {"name": "🌐 Blog", "content": "https://dlab.epfl.ch/2021-05-19-YouNiverse/"}
-  - {"name": "▶️ Slides", "content": "https://docs.google.com/presentation/d/1jVhJ87ezcXh-hQKvbFiGSn1r-UP1nxfB7E8lpACeJZg/edit?usp=sharing"}
-  - {"name": "📹 Presentation", "content":"https://www.youtube.com/watch?v=pqEodXPP3hI"}
-  - {"name": "🐦 Tweet", "content":"https://twitter.com/manoelribeiro/status/1341082283223240706"}
+  
+  - {"name": "📜 Paper", "content": "https://dl.acm.org/doi/abs/10.1145/3757667"}
+  - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2405.02150"}
+  - {"name": "🐦 Tweet", "content": "https://x.com/manoelribeiro/status/1787512594661572878"}
 
-name_file: '2021_yt'
 ---
 ```
 
-Fields are mostly self-explanatory. Yet, note that links is pretty generic! 
-You can have any kind of content there. Note also that `name_file` is
-deprecated, you don't need to add it.
+Fields are mostly self-explanatory. Note that links is pretty generic! 
+You can have any kind of content there. Check the publication page to see 
+what is typically shared. 
 
-
-## Update press
+## `press.html` — Update press 
 
 To add any media coverage, create a new `.md` file on `my_collections/_media`. 
 
@@ -127,3 +149,4 @@ the country of origin with an emoji besides the venue. For instance:
 ```
 "venue": "🇧🇷 Folha de São Paulo"
 ```
+

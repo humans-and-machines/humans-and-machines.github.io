@@ -20,7 +20,5 @@ links:
   - {"name": "📄 Pre-print", "content":"https://arxiv.org/abs/1908.08313"}
   - {"name": "🔗️ Code", "content": "https://github.com/ruptho/wiki-volunteers-covid"}
   - {"name": "🐦 Tweet", "content": "https://twitter.com/manoelribeiro/status/1364209595267362816"}
-  
-name_file: '2021_coronawiki'
 
 ---

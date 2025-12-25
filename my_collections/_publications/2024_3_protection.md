@@ -8,16 +8,16 @@ authors:
 - Robert West
 - Denis Helic
 
-
 year: 2025
 
 conf: 'ICWSM'
 
 links:
+  - {"name": "📜 Paper", "content": "https://ojs.aaai.org/index.php/ICWSM/article/view/35896/38050"}
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2310.12696"}
+  - {"name": "🔗️ Code", "content": "https://github.com/ruptho/wiki-pp"}
 
-name_file: '2024_protection'
-
+awards: ['🏆 Best Paper Honorable Mention Award']
 ---
 
 

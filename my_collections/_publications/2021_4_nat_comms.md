@@ -29,6 +29,4 @@ links:
   - {"name": "🔗️ Code", "content": "https://github.com/antonior92/ecg-age-prediction"}
   - {"name": "🐦 Tweet", "content": "https://twitter.com/manoelribeiro/status/1430487848092938240"}
 
-name_file: '2021_natcom'
-
 ---

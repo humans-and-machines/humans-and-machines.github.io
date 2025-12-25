@@ -12,12 +12,10 @@ year: 2025
 
 conf: 'CSCW'
 
-student: ☆
-
 links:
+  - {"name": "📜 Paper", "content": "https://dl.acm.org/doi/10.1145/3711046"}
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2411.16814"}
 
-name_file: '2024_reddit'
 
 ---
 

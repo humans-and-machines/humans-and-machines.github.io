@@ -19,9 +19,6 @@ links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2308.10398"}
   - {"name": "🐦 Tweet", "content": "https://twitter.com/manoelribeiro/status/1757501174339539273"}
 
-
-name_file: '2024_pnas'
-
 ---
 
 

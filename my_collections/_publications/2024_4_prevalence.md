@@ -14,12 +14,10 @@ year: 2024
 
 conf: 'Comms. of the ACM'
 
-student: ☆
-
 links:
+  - {"name": "📜 Paper", "content": "https://dl.acm.org/doi/10.1145/3685527"}
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2310.15683"}
-
-name_file: '2024_pp'
+  - {"name": "🔗️ Code", "content": "https://github.com/epfl-dlab/LLM-crowdwork/"}
 
 ---
 

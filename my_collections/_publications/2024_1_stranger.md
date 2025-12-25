@@ -7,8 +7,7 @@ authors:
 - Manoel Horta Ribeiro
 - Robert West
 
-award: '🏆 Best Paper Award'
-
+awards: ['🏆 Best Paper Award']
 
 year: 2024
 

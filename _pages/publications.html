@@ -32,17 +32,19 @@ permalink: /publications.html
 {% for member in site.members %}
 {% if member.name == author_clean %}
 {% assign is_member = true %}
+{% assign urlv = member.link %}
 {% endif %}
 {% endfor %}
 {% if is_member %}
-<b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}
+<a href="{{%urlv%}}" style="display: inline-block; text-decoration: none;">{{ author }}</a>{% if forloop.last != true %},{% endif %}
 {% else %}
 <span style="display: inline-block">{{ author }}</span>{% if forloop.last != true %},{% endif %}
 {% endif %}
 {% endfor %}
 </p>
 <p style="display: block">
-{% for link_content in pub.links %} <a href="{{link_content.content}}" style="display: inline-block"> {{link_content.name}}</a>{% if forloop.last != true %},&nbsp;{% endif %}{% endfor %}
+{% for link_content in pub.links %} <a href="{{link_content.content}}" style="display: inline-block">
+    {{link_content.name}}</a>{% if forloop.last != true %},&nbsp;{% endif %}{% endfor %}
 </p>
 {% assign flag = 0 %}
 {% for med in site.media reversed %}
@@ -58,6 +60,15 @@ permalink: /publications.html
 {% if pub.title == med.related_paper %}
     <a href="{{ med.link}}" style="display: inline-block">{{ med.venue }}</a> &nbsp;
 {% endif %}
+{% endfor %}
+</p>
+
+{% endif %}
+
+{% if pub.awards %}
+<p> <i>Awards:</i>&nbsp;
+{% for award in pub.awards %}
+    <b>{{ award }}</b> &nbsp;
 {% endfor %}
 </p>
 {% endif %}

@@ -18,7 +18,6 @@ student: ☆
 links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2401.01253"}
 
-name_file: '2024_depl'
 
 ---
 
