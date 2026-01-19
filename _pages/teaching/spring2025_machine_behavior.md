@@ -69,13 +69,13 @@ Machine learning models are everywhere, and their role in society may increase a
 ## 3. About the course
 This course has three central components: 1) reading activities, 2) a research project, 3) guest lectures
 
-### 3.1 Reading activities 
+### 3.1 Reading activities
 
 **TL;DR:** For each class, all students write a short commentary ("reading response") to assigned readings, and some students take turns as "discussants," summarizing their peers' reading responses.
 
 #### 3.1.1 Reading response
 - Each day, we will have 1 to 2 assigned readings;
-- Everyone should write a short response for each. 
+- Everyone should write a short response for each.
 	- This should be done as a slide to be added to a collective deck.
 	- This should be done at least 22 hours before the class.
 - Your response should reflect on a couple of the following questions:
