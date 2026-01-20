@@ -115,6 +115,13 @@ Fields are mostly self-explanatory. Note that links is pretty generic!
 You can have any kind of content there. Check the publication page to see 
 what is typically shared. 
 
+If you are adding a pre-print, please use the following fields:
+
+```md
+year: 2100
+conf: 'preprint'
+```
+
 ## `press.html` — Update press 
 
 To add any media coverage, create a new `.md` file on `my_collections/_media`. 

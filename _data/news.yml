@@ -1,6 +1,11 @@
 ---
 - links:
     - {
+        "date": "2026-01-17",
+        "text": '📜 Paper accepted at  CHI 2026: "Bonsai: Intentional and Personalized Social Media Feeds"',
+        "links": ["https://arxiv.org/abs/2502.10776"],
+      }
+    - {
         "date": "2025-11-10",
         "text": "🏆 Manoel was commended for his teaching at Princeton!",
         "link": "https://engineering.princeton.edu/news/2025/11/10/faculty-commended-outstanding-teaching-8",
