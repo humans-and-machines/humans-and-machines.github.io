@@ -6,11 +6,12 @@ authors:
 - Manoel Horta Ribeiro
 - Nicolas Christin
 
-year: 2025
+year: 2026
 
 conf: 'USENIX'
 
 links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2507.16045"}
+  - {"name": "🐦 Tweet", "content": "https://x.com/manoelribeiro/status/1950652179490255253"}
 
 ---
