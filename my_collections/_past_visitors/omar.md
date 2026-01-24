@@ -1,6 +1,6 @@
 ---
 
-name: 'Omar ElMalki'
+name: 'Omar El Malki'
 title: 'Visiting Student (EPFL)'
 link: 'https://www.linkedin.com/in/omelmalki/?originalSubdomain=ch'
 comment: 'Summer 2025'

@@ -35,6 +35,12 @@ permalink: /publications.html
 {% assign urlv = member.link %}
 {% endif %}
 {% endfor %}
+{% for member in site.past_visitors %}
+{% if member.name == author_clean %}
+{% assign is_member = true %}
+{% assign urlv = member.link %}
+{% endif %}
+{% endfor %}
 {% if is_member %}
 <a href="{{%urlv%}}" style="display: inline-block; text-decoration: none;">{{ author }}</a>{% if forloop.last != true %},{% endif %}
 {% else %}
