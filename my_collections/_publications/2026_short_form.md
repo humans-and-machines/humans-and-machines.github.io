@@ -13,7 +13,7 @@ year: 2100
 conf: 'preprint'
 
 links:
-  - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2502.01787"}
+  - {"name": "📄 Pre-print", "content": "https://osf.io/preprints/socarxiv/nge76_v1"}
   - {"name": "🦋 Post", "content": "https://bsky.app/profile/manoelhortaribeiro.bsky.social/post/3m5tkt2futk2r"}
 
 ---
