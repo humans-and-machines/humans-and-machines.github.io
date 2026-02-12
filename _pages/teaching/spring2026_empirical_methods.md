@@ -39,20 +39,19 @@ research project proposal.
 
 ## 2. Schedule 
 
-|     **Date**      |                                **What?**                                |                                 **Slides**                                  |    **Comment**    |
-|:-----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-----------------:|
-| [Jan 29](#jan-29) |                                  Intro                                  | [(Link)](../my_collections/slides/spring2026_empirical_methods/1_intro.pdf) |                   |
-| [Feb 05](#feb-05) |                           Potential Outcomes                            |  [(link)](../my_collections/slides/spring2026_empirical_methods/2_po.pdf)   |                   |
-| [Feb 12](#feb-12) |                               Experiments                               |                                  [(TBD)]()                                  |                   |
-| [Feb 19](#feb-19) |                           Thinking with DAGs                            |                                  [(TBD)]()                                  |                   |
-| [Feb 26](#feb-26) |                              Regression #1                              |                                  [(TBD)]()                                  |      HW1 due      | 
-| [Mar 05](#mar-05) |                              Regression #2                              |                                  [(TBD)]()                                  |                   | 
-| [Mar 19](#mar-19) |   Benchmarks ([Olawale Salaudeen](https://www.olawalesalaudeen.com/))   |                                  [(TBD)]()                                  |      HW2 due      |
-| [Mar 26](#mar-26) |      Quasi-experiments ([Pietro Lesci](https://pietrolesci.com/))       |                                  [(TBD)]()                                  |                   | 
-| [Apr 02](#apr-02) |            Causal ML ([Drew Dimmery](https://ddimmery.com/))            |                                  [(TBD)]()                                  |                   |
-| [Apr 09](#apr-09) | Labeling with LLMs ([Kristina Gligorić](https://kristinagligoric.com/)) |                                  [(TBD)]()                                  |                   | 
-| [Apr 16](#apr-16) |                    *No Classes (Manoel goes to CHI)*                    |                                                                             |                   | 
-| [Apr 23](#apr-23) |                           Final Presentations                           |                                  [(TBD)]()                                  |      HW3 due      | 
+|     **Date**      |                                **What?**                                |                                    **Slides**                                     |    **Comment**    |
+|:-----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:-----------------:|
+| [Jan 29](#jan-29) |                                  Intro                                  |    [(link)](../my_collections/slides/spring2026_empirical_methods/1_intro.pdf)    |                   |
+| [Feb 05](#feb-05) |                           Potential Outcomes                            |     [(link)](../my_collections/slides/spring2026_empirical_methods/2_po.pdf)      |                   |
+| [Feb 19](#feb-19) |                           Thinking with DAGs                            | [(link)](../my_collections/slides/spring2026_empirical_methods/3_experiments.pdf) |                   |
+| [Feb 26](#feb-26) |                              Regression #1                              |                                                                                   |      HW1 due      | 
+| [Mar 05](#mar-05) |                              Regression #2                              |                                                                                   |                   | 
+| [Mar 19](#mar-19) |   Benchmarks ([Olawale Salaudeen](https://www.olawalesalaudeen.com/))   |                                                                                   |      HW2 due      |
+| [Mar 26](#mar-26) |      Quasi-experiments ([Pietro Lesci](https://pietrolesci.com/))       |                                                                                   |                   | 
+| [Apr 02](#apr-02) |            Causal ML ([Drew Dimmery](https://ddimmery.com/))            |                                                                                   |                   |
+| [Apr 09](#apr-09) | Labeling with LLMs ([Kristina Gligorić](https://kristinagligoric.com/)) |                                                                                   |                   | 
+| [Apr 16](#apr-16) |                    *No Classes (Manoel goes to CHI)*                    |                                                                                   |                   | 
+| [Apr 23](#apr-23) |                           Final Presentations                           |                                                                                   |      HW3 due      | 
 
 
 ## 3. About the course
