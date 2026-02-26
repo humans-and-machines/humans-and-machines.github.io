@@ -43,9 +43,9 @@ research project proposal.
 |:-----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:-----------:|
 | [Jan 29](#jan-29) |                                  Intro                                  |   [(link)]( ../my_collections/slides/spring2026_empirical_methods/1_intro.pdf)    |             |
 | [Feb 05](#feb-05) |                           Potential Outcomes                            |     [(link)](../my_collections/slides/spring2026_empirical_methods/2_po.pdf)      |             |
-| [Feb 12](#feb-05) |                                Experiments                              | [(link)](../my_collections/slides/spring2026_empirical_methods/3_experiments.pdf) |             |
+| [Feb 12](#feb-05) |                                         Experiments                     | [(link)](../my_collections/slides/spring2026_empirical_methods/3_experiments.pdf) |             |
 | [Feb 19](#feb-19) |                           Thinking with DAGs                            |    [(link)](../my_collections/slides/spring2026_empirical_methods/4_dags.pdf)     |             |
-| [Feb 26](#feb-26) |                              Regression #1                              |                                                                                   |   HW1 due   | 
+| [Feb 26](#feb-26) |                              Regression #1                              | [(link)](../my_collections/slides/spring2026_empirical_methods/5_regression.pdf)  |   HW1 due   | 
 | [Mar 05](#mar-05) |                              Regression #2                              |                                                                                   |             | 
 | [Mar 19](#mar-19) |   Benchmarks ([Olawale Salaudeen](https://www.olawalesalaudeen.com/))   |                                                                                   |   HW2 due   |
 | [Mar 26](#mar-26) |      Quasi-experiments ([Pietro Lesci](https://pietrolesci.com/))       |                                                                                   |             | 
@@ -81,15 +81,15 @@ You are encouraged to mix this project with some research you are already doing,
 #### 3.3.1 Homework 1
 
 - **Description**: In a first homework, we will review concepts associated with the design and the analysis of experiments in a machine learning setting.
-- **Release date**: Feb 12, 2026.
-- **Due date**: Feb 26, 2026.
+- **Release date**: Feb 15, 2026.
+- **Due date**: Mar 01, 2026.
 - **Deliverables**: A filled Jupyter notebook.
 
 #### 3.3.2 Homework 2
 
 - **Description**: In a second homework, we will provide some nut-and-bolts details about running regressions.
-- **Release date**: Feb 26, 2026.
-- **Due date**: Mar 19, 2026.
+- **Release date**: Mar 06, 2026.
+- **Due date**: Mar 22nd, 2026.
 - **Deliverables**: A filled Jupyter notebook.
 
 #### 3.3.3 Project
