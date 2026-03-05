@@ -46,7 +46,7 @@ research project proposal.
 | [Feb 12](#feb-05) |                                         Experiments                     | [(link)](../my_collections/slides/spring2026_empirical_methods/3_experiments.pdf) |             |
 | [Feb 19](#feb-19) |                           Thinking with DAGs                            |    [(link)](../my_collections/slides/spring2026_empirical_methods/4_dags.pdf)     |             |
 | [Feb 26](#feb-26) |                              Regression #1                              | [(link)](../my_collections/slides/spring2026_empirical_methods/5_regression.pdf)  |   HW1 due   | 
-| [Mar 05](#mar-05) |                              Regression #2                              |                                                                                   |             | 
+| [Mar 05](#mar-05) |                              Regression #2                              | [(link)](../my_collections/slides/spring2026_empirical_methods/6_regression.pdf)  |             | 
 | [Mar 19](#mar-19) |   Benchmarks ([Olawale Salaudeen](https://www.olawalesalaudeen.com/))   |                                                                                   |   HW2 due   |
 | [Mar 26](#mar-26) |      Quasi-experiments ([Pietro Lesci](https://pietrolesci.com/))       |                                                                                   |             | 
 | [Apr 02](#apr-02) |            Causal ML ([Drew Dimmery](https://ddimmery.com/))            |                                                                                   |             |
