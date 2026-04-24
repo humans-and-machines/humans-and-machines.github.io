@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spring 2026 — COS 424 — Reasoning with Data
-permalink: /teaching/spring2026_empirical_methods
+permalink: /teaching/fall2026_reasoning_with_data
 ---
 
 <div><br/></div>
