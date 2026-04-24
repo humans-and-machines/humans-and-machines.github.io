@@ -49,8 +49,8 @@ research project proposal.
 | [Mar 05](#mar-05) |                              Regression #2                              |     [(link)](../my_collections/slides/spring2026_empirical_methods/6_regression.pdf)      |             | 
 | [Mar 19](#mar-19) |   Benchmarks ([Olawale Salaudeen](https://www.olawalesalaudeen.com/))   |     [(link)](../my_collections/slides/spring2026_empirical_methods/7_benchmarks.pdf)      |   HW2 due   |
 | [Mar 26](#mar-26) |      Quasi-experiments ([Pietro Lesci](https://pietrolesci.com/))       | [(link)](../my_collections/slides/spring2026_empirical_methods/8_natural_experiments.pdf) |             | 
-| [Apr 02](#apr-02) |            Causal ML ([Drew Dimmery](https://ddimmery.com/))            |                                                                                           |             |
-| [Apr 09](#apr-09) | Labeling with LLMs ([Kristina Gligorić](https://kristinagligoric.com/)) |                                                                                           |             | 
+| [Apr 02](#apr-02) |            Causal ML ([Drew Dimmery](https://ddimmery.com/))            |      [(link)](../my_collections/slides/spring2026_empirical_methods/9_causal_ml.pdf)      |             |
+| [Apr 09](#apr-09) | Labeling with LLMs ([Kristina Gligorić](https://kristinagligoric.com/)) | [(link)](../my_collections/slides/spring2026_empirical_methods/10_labelling_with_lms.pdf) |             | 
 | [Apr 16](#apr-16) |                    *No Classes (Manoel goes to CHI)*                    |                                                                                           |             | 
 | [Apr 23](#apr-23) |                           Final Presentations                           |                                                                                           |   HW3 due   | 
 
