@@ -8,9 +8,9 @@ authors:
 - Stefan Feuerriegel
 - Manoel Horta Ribeiro
 
-year: 2100
+year: 2026
 
-conf: 'preprint'
+conf: 'ICWSM'
 
 links:
   - {"name": "📄 Pre-print", "content": "https://osf.io/preprints/socarxiv/nge76_v1"}
