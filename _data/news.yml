@@ -2,12 +2,12 @@
 - links:
     - {
         "date": "2026-04-04",
-        "text": '📜 Paper accepted at Findings of the ACL: "The Illusion of Insight in Reasoning Models"',
+        "text": '📜 Paper accepted at Findings of the ACL 2026: "The Illusion of Insight in Reasoning Models"',
         "links": ["https://arxiv.org/abs/2601.00514"],
       }
     - {
       "date": "2026-03-15",
-      "text": '📜 Paper accepted at ICWSM: "Short-form video platforms drive mobile overuse"',
+      "text": '📜 Paper accepted at ICWSM 2026: "Short-form video platforms drive mobile overuse"',
       "links": ["https://osf.io/preprints/socarxiv/nge76_v1"],
     }
     - {
@@ -17,7 +17,7 @@
       }
     - {
         "date": "2025-12-04",
-        "text": '📜 Paper accepted at  USENIX 2026: "Chameleon Channels: Measuring YouTube Accounts Repurposed for Deception and Profit"',
+        "text": '📜 Paper accepted at USENIX 2026: "Chameleon Channels: Measuring YouTube Accounts Repurposed for Deception and Profit"',
         "links": ["https://arxiv.org/abs/2507.16045"],
       }
     - {
@@ -36,7 +36,7 @@
       }
     - {
         "date": "2025-10-07",
-        "text": '📜 Paper accepted at  SPLASH-E 2025: "Interactive Theorem Provers for Proof Education"',
+        "text": '📜 Paper accepted at SPLASH-E 2025: "Interactive Theorem Provers for Proof Education"',
         "links": ["https://dl.acm.org/doi/abs/10.1145/3758317.3759679"],
       }
     - {
@@ -61,7 +61,7 @@
       }
     - {
         "date": "2025-01-31",
-        "text": '📜 Paper accepted at  WebSci 2025: "The Effects of Enterprise Social Media on Communication Networks."',
+        "text": '📜 Paper accepted at WebSci 2025: "The Effects of Enterprise Social Media on Communication Networks."',
         "links": ["https://arxiv.org/abs/2502.01787"],
       }
     - {
