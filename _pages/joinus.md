@@ -33,6 +33,8 @@ starting Summer/Fall 2026. Please do the following:
 We review applications in batches every first week of the month, and we will
 reach out to you directly.
 
+Please note that we are currently unable to directly provide funding for Summer projects. If you are interested in working with us during the Summer and require funding, you should first apply to the [ReMatch+](https://undergraduateresearch.princeton.edu/programs/summer-programs/rematchplus) program.
+
 <br />
 
 <h4>MSE Applicants</h4>
