@@ -375,72 +375,114 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 1.5rem;
-  padding: 1rem;
+  gap: .75rem;
+  padding: .75rem;
 }
 
-/* Card link */
-.member-card {
+.alumni-card {
   display: inline-block;
-  text-align: center;
-  //gap: 0.1rem;
-  max-width: 175px;
   text-decoration: none;
+    width: 100%;
   color: inherit;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
-  padding: 0.5rem;
+  //padding: 6px;
+  margin: 0px;
   border: 0.3px solid #e4e4e4;
   border-radius: 5%;
 
+  p {
+    margin: 1px;
+  }
 }
 
-.member-card:hover {
+.alumni-card:hover {
   transform: translateY(-5px);
   background: #e4e4e4;
 }
 
-/* Photo */
-.member-card img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  //border: 2px solid #000;
-  flex-shrink: 0;
+/* Container holding all member cards */
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
-/* Text container */
+/* Individual card */
+.member-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  width: 200px;
+  box-sizing: border-box;
+  padding: 0.15rem;
+
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Helvetica, Arial;
+
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  background-color: #e4e4e4;
+}
+
+/* Photo on the left */
+.member-card > img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  //min-width: 50px;
+
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+/* Text on the right */
 .member-card .info {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+
+  min-width: 0;
   font-size: 0.8rem;
   line-height: 1.2;
 }
 
-/* Name and role */
-.member-card .name {
-  font-weight: 600;
-  font-size: 0.8rem;
+/* Remove default paragraph spacing */
+.member-card .info p {
   margin: 0;
 }
 
+.member-card .name {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
 .member-card .role {
+  margin-top: 0.2rem;
   font-size: 0.8rem;
   color: #555;
-  margin: 0.2rem 0 0;
 }
 
-.member-card .email {
+.member-card .email,
+.member-card .comment {
+  margin-top: 0.2rem;
   font-size: 0.6rem;
   color: #444;
-  margin: 0.2rem 0 0;
+
+  overflow-wrap: anywhere;
 }
 
-/* Optional: add subtle divider between cards */
-.member-card:not(:last-child)::after {
-  content: "";
-}
 
 /* Make text smaller on narrow screens */
 @media (max-width: 480px) {

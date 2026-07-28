@@ -4,8 +4,9 @@ title: People
 permalink: /people/
 ---
 
+<div class="col-lg-12">
 
-<h3>Current Members</h3>
+<h3 style="text-align: center">Current Members</h3>
 
 <hr/>
 {% assign original_list = site.members %}
@@ -17,11 +18,12 @@ permalink: /people/
   {% for person in shuffled_list %}
 
       <a class="member-card" href="{{person.link}}" target="_blank">
-    <img src="/images/lab_members/{{person.photo}}" alt="{{person.name}}" />
+    <img src="/images/lab_members/{{person.photo}}" alt="{{person.name}}"
+    style="display: inline-block"/>
     <div class="info">
       <p class="name">{{person.name}}</p>
       <p class="role">{{person.title}}</p>
-      <p class="email">{{person.email}}</p>
+<!--      <p class="email">{{person.email}}</p>-->
       <p class="email">{{person.comment}}</p>
     </div>
   </a>
@@ -29,32 +31,77 @@ permalink: /people/
 {% endfor %}
 
 </div>
+</div>
 
 
-
-<h3>Past Visitors</h3>
+<div class="col-lg-6">
+<h3 style="text-align: center">Alumni</h3>
 <hr/>
-{% assign original_list = site.past_visitors %}
-{% assign shuffled_list = original_list | sample: original_list.size %}
 
+{% assign my_list = "" %}
+{% for visitor in site.alumni reversed %}
+{% assign my_list = my_list | append: {{visitor.year}} | append: "," %}
+{% endfor %}
+{% assign my_array = my_list | split: "," | sort | uniq  |reverse  %}
+{% for n in my_array %}
 
-<div class="members">
+  <div class="members">
 
-  {% for person in shuffled_list %}
+  {% for visitor in site.alumni reversed %}
+  {% if visitor.year == n %}
 
-      <a class="member-card" href="{{person.link}}" target="_blank">
-    <img src="/images/lab_members/{{person.photo}}" alt="{{person.name}}" />
+          <a class="member-card" href="{{visitor.link}}" target="_blank">
+    <img src="/images/lab_members/{{visitor.photo}}" alt="{{visitor.name}}"
+    style="display: inline-block"/>
     <div class="info">
-      <p class="name">{{person.name}}</p>
-      <p class="role">{{person.title}}</p>
-      <p class="email">{{person.email}}</p>
-      <p class="email">{{person.comment}}</p>
+      <p class="name">{{visitor.name}}</p>
+      <p class="role">{{visitor.title}}</p>
+      <p class="email">{{visitor.comment}}</p>
     </div>
   </a>
 
+
+
+  {% endif %}
+
+
+{% endfor %}
+</div>
+
 {% endfor %}
 
-  </div>
+</div>
+
+
+<br />
+
+<div class="col-lg-6">
+<h3 style="text-align: center">Visitors</h3>
+<hr/>
+
+{% assign my_list = "" %}
+{% for visitor in site.past_visitors reversed %}
+{% assign my_list = my_list | append: {{visitor.year}} | append: "," %}
+{% endfor %}
+{% assign my_array = my_list | split: "," | sort | uniq  |reverse  %}
+{% for n in my_array %}
+<p style="text-align: left; color: #999999; font-style: italic"> {{n}} </p>
+
+
+  {% for visitor in site.past_visitors reversed %}
+  {% if visitor.year == n %}
+  <p> <a href="{{visitor.link}}">{{visitor.name}}</a> ({{visitor.title}})</p>
+
+  {% endif %}
+
+
+{% endfor %}
+
+
+{% endfor %}
+
+</div>
+</div>
 
 
 

@@ -33,16 +33,28 @@ permalink: /publications.html
 {% if member.name == author_clean %}
 {% assign is_member = true %}
 {% assign urlv = member.link %}
+{% assign photo = member.photo %}
 {% endif %}
 {% endfor %}
 {% for member in site.past_visitors %}
 {% if member.name == author_clean %}
 {% assign is_member = true %}
 {% assign urlv = member.link %}
+{% assign photo = member.photo %}
+{% endif %}
+{% endfor %}
+{% for member in site.alumni %}
+{% if member.name == author_clean %}
+{% assign is_member = true %}
+{% assign urlv = member.link %}
+{% assign photo = member.photo %}
 {% endif %}
 {% endfor %}
 {% if is_member %}
-<a href="{{%urlv%}}" style="display: inline-block; text-decoration: none;">{{ author }}</a>{% if forloop.last != true %},{% endif %}
+ <a href="{{%urlv%}}" style="display: inline-block; text-decoration: none;">
+     <img src="/images/lab_members/{{photo}}" style="border-radius:50%; display: inline-block; vertical-align: middle; margin: 0px; height: 20px;"/>
+
+     {{ author }}</a>{% if forloop.last != true %},{% endif %}
 {% else %}
 <span style="display: inline-block">{{ author }}</span>{% if forloop.last != true %},{% endif %}
 {% endif %}
