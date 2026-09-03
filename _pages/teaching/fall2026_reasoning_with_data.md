@@ -31,7 +31,7 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
       <td><strong>Week 01</strong></td>
       <td>
         <strong>Tuesday:</strong> No class<br>
-        <strong>Thursday:</strong> Introduction
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/1_intro.pdf">Introduction</a>
       </td>
       <td>✗</td>
       <td>✗</td>
