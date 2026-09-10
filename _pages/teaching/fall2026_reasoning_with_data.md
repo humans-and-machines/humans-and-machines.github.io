@@ -41,7 +41,7 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
       <td><strong>Week 02</strong></td>
       <td>
         <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/2_handling_data.pdf">Handling Data</a> <br>
-        <strong>Thursday:</strong> Visualizing Data
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/3_visualizing_data.pdf">Visualizing Data</a> 
       </td>
       <td>Mock</td>
       <td><strong>P1:</strong> Basic Pandas</td>
