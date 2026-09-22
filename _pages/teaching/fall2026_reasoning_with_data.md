@@ -49,9 +49,9 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
     </tr>
     <tr>
       <td><strong>Week 03</strong></td>
-      <td>
-        <strong>Tuesday:</strong> Describing Data<br>
-        <strong>Thursday:</strong> Network Data
+    <td>
+        <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/4_describing_data.pdf">Describing Data</a> <br>
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/5_network_data.pdf">Network Data</a> 
       </td>
       <td>✔</td>
       <td>
@@ -63,7 +63,7 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
     <tr>
       <td><strong>Week 04</strong></td>
       <td>
-        <strong>Tuesday:</strong> Applied ML #1<br>
+        <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/6_applied_ml.pdf">Applied ML #1</a> <br>
         <strong>Thursday:</strong> Applied ML #2
       </td>
       <td>✔</td>
