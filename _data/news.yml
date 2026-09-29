@@ -1,6 +1,11 @@
 ---
 - links:
     - {
+        "date": "2026-09-24",
+        "text": '📜 Paper accepted at NeurIPS 2026 E&D Track: "Can AI Agents Synthesize Scientific Conclusions?"',
+        "links": ["https://arxiv.org/abs/2606.11337"],
+      }
+    - {
         "date": "2026-04-04",
         "text": '📜 Paper accepted at Findings of the ACL 2026: "The Illusion of Insight in Reasoning Models"',
         "links": ["https://arxiv.org/abs/2601.00514"],
