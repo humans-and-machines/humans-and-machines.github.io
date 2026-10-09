@@ -10,7 +10,7 @@ authors:
 
 year: 2100
 
-conf: 'preprint'
+conf: 'AIES'
 
 links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2606.17887"}
