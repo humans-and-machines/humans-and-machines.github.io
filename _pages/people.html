@@ -34,7 +34,7 @@ permalink: /people/
 </div>
 
 
-<div class="col-lg-6">
+<div class="col-lg-12">
 <h3 style="text-align: center">Alumni</h3>
 <hr/>
 
@@ -101,8 +101,35 @@ permalink: /people/
 {% endfor %}
 
 </div>
+
+<div class="col-lg-6">
+<h3 style="text-align: center">Undergrads</h3>
+<hr/>
+
+{% assign my_list2 = "" %}
+{% for visitor in site.undergrads reversed %}
+{% assign my_list2 = my_list2 | append: {{visitor.year}} | append: "," %}
+{% endfor %}
+{% assign my_array2 = my_list2 | split: "," | sort | uniq  |reverse  %}
+{% for n in my_array2 %}
+<p style="text-align: left; color: #999999; font-style: italic"> {{n}} </p>
+
+
+  {% for visitor in site.undergrads reversed %}
+  {% if visitor.year == n %}
+  <p> <a href="{{visitor.link}}">{{visitor.name}}</a> ({{visitor.title}})</p>
+
+  {% endif %}
+
+
+  {% endfor %}
+
+
+{% endfor %}
+
 </div>
 
+</div>
 
 
 

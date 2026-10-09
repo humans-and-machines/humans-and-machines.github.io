@@ -23,6 +23,8 @@ collections:
     output: true
   past_visitors:
     output: true
+  undergrads:
+    output: true
   alumni:
     output: true
   slides:
