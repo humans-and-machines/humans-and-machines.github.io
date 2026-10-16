@@ -64,7 +64,7 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
       <td><strong>Week 04</strong></td>
       <td>
         <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/6_applied_ml.pdf">Applied ML #1</a> <br>
-        <strong>Thursday:</strong> Applied ML #2
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/7_applied_ml_2.pdf">Applied ML #2</a>
       </td>
       <td>✔</td>
       <td>
@@ -76,8 +76,8 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
     <tr>
       <td><strong>Week 05</strong></td>
       <td>
-        <strong>Tuesday:</strong> Handling Text<br>
-        <strong>Thursday:</strong> Using LLMs
+        <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/8_handling_text.pdf">Handling Text</a><br>
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/9_working_with_llms.pdf">Using LLMs</a>
       </td>
       <td>✔</td>
       <td>
@@ -89,8 +89,8 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
     <tr>
       <td><strong>Week 06</strong></td>
       <td>
-        <strong>Tuesday:</strong> Potential Outcomes<br>
-        <strong>Thursday:</strong> Experiments
+        <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/10_po.pdf">Potential Outcomes</a><br>
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/11_experiments.pdf">Experiments</a>
       </td>
       <td>✔</td>
       <td>
@@ -102,8 +102,8 @@ Reasoning with Data trains students to turn messy real-world datasets and experi
     <tr>
       <td><strong>Week 07</strong></td>
       <td>
-        <strong>Tuesday:</strong> DAGs<br>
-        <strong>Thursday:</strong> Regression #1
+        <strong>Tuesday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/12_dags.pdf">DAGs</a><br>
+        <strong>Thursday:</strong> <a href="https://humans.cs.princeton.edu/my_collections/slides/fall_2026_cos424/13_regression.pdf">Regression #1</a>
       </td>
       <td>✔</td>
       <td>
