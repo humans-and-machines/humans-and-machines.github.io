@@ -8,7 +8,7 @@ authors:
 
 year: 2026
 
-conf: 'Amicus Brief, U.S. Court of Appeals for the Ninth Circuit'
+conf: 'Amicus Brief, 9th Cir.'
 
 links:
   - {"name": "📜 Brief", "content": "/my_collections/others/citp_amicus_oct20.pdf"}
